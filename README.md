@@ -2,6 +2,8 @@
 
 Docker image for a competitive tf2 server.
 
+See the [base server](https://github.com/spiretf/docker-tf2-server) for additional options
+
 ## Addons and Plugins
 
 - MetaMod:Source
