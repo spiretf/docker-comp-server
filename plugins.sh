@@ -32,5 +32,7 @@ wget -nv  --header="Accept: text/html" --user-agent="Mozilla/5.0 (Macintosh; Int
 unzip f2-sourcemod-plugins.zip
 
 # WebRCON
-
 wget -nv https://github.com/spiretf/webrcon/raw/master/plugin/webrcon.smx
+
+# whitelist.tf downloader
+wget -nv https://github.com/spiretf/sm_whitelist/raw/master/plugin/whitelisttf.smx

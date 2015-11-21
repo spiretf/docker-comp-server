@@ -22,6 +22,7 @@ The server image comes with the etf2l and ugc configs, common competitive maps a
 - FixStvSlot
 - Updater
 - WebRCON
+- whitelist.tf downloader
 
 ## Maps
 
