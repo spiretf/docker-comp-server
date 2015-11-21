@@ -4,6 +4,8 @@ Docker image for a competitive tf2 server.
 
 See the [base server](https://github.com/spiretf/docker-tf2-server) for additional options
 
+The server image comes with the etf2l and ugc configs, common competitive maps and a set of usefull sourcemod plugins
+
 ## Addons and Plugins
 
 - MetaMod:Source
