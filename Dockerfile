@@ -10,6 +10,9 @@ RUN $SERVER/sourcemod.sh
 ADD ./plugins.sh $SERVER/plugins.sh
 RUN $SERVER/plugins.sh
 
+ADD ./configs.sh $SERVER/configs.sh
+RUN $SERVER/configs.sh
+
 EXPOSE 27015/udp
 
 WORKDIR /home/$USER/hlserver
