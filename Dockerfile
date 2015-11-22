@@ -1,4 +1,4 @@
-from tf2-base
+from spiretf/docker-tf2-server
 maintainer Robin Appelman <robin@icewind.nl>
 
 ADD ./maps.sh $SERVER/maps.sh
