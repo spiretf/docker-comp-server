@@ -23,8 +23,8 @@ The server image comes with the etf2l and ugc configs, common competitive maps a
 - Updater
 - WebRCON
 - whitelist.tf downloader
+- missing map downloader
 
 ## Maps
 
-- badwater\_pro\_v8
 - badwater\_pro\_v9

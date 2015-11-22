@@ -36,3 +36,6 @@ wget -nv https://github.com/spiretf/webrcon/raw/master/plugin/webrcon.smx
 
 # whitelist.tf downloader
 wget -nv https://github.com/spiretf/sm_whitelist/raw/master/plugin/whitelisttf.smx
+
+# map downloader
+wget -nv https://github.com/spiretf/mapdownloader/raw/master/plugin/mapdownloader.smx
