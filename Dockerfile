@@ -14,6 +14,7 @@ ADD ./configs.sh $SERVER/configs.sh
 RUN $SERVER/configs.sh
 
 EXPOSE 27015/udp
+EXPOSE 27015/tcp
 
 WORKDIR /home/$USER/hlserver
 ENTRYPOINT ["./tf.sh"]
