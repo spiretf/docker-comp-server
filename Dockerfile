@@ -17,5 +17,6 @@ EXPOSE 27015/udp
 EXPOSE 27015/tcp
 
 WORKDIR /home/$USER/hlserver
+EXPOSE 27021/tcp
 ENTRYPOINT ["./tf.sh"]
 CMD ["+sv_pure", "1", "+mapcycle", "mapcycle_quickplay_payload.txt", "+map", "pl_badwater", "+maxplayers", "24"]
