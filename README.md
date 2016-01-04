@@ -31,4 +31,8 @@ The server image comes with the etf2l and ugc configs, common competitive maps a
 
 ## Maps
 
-- badwater\_pro\_v9
+- UGC HL S18
+ - badwater\_pro\_v9
+ - koth\_ashville\_rc1
+ - pl\_swiftwater\_ugc
+ - koth\_product\_rc8
