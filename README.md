@@ -28,6 +28,7 @@ The server image comes with the etf2l and ugc configs, common competitive maps a
 - WebRCON
 - whitelist.tf downloader
 - missing map downloader
+- Demos.tf
 
 ## Maps
 
