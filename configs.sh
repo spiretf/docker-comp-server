@@ -1,7 +1,7 @@
 #!/bin/bash
 cd $HOME/hlserver/tf2/tf/cfg
 
-ugc_cfg_version_9="v010116"
+ugc_cfg_version_9="v010316"
 ugc_cfg_version_6="v121915"
 ugc_cfg_version_4="v111415"
 
