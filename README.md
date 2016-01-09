@@ -25,10 +25,11 @@ The server image comes with the etf2l and ugc configs, common competitive maps a
 - RestoreScore
 - FixStvSlot
 - Updater
-- WebRCON
-- whitelist.tf downloader
-- missing map downloader
-- Demos.tf
+- [WebRCON](https://github.com/spiretf/webrcon)
+- [whitelist.tf downloader](https://github.com/spiretf/sm_whitelist)
+- [missing map downloader](https://github.com/spiretf/mapdownloader)
+- [Demos.tf](https://demos.tf)
+- [autoexec](https://github.com/spiretf/autoexec)
 
 ## Maps
 
