@@ -1,8 +1,8 @@
 #!/bin/bash
 cd $HOME/hlserver/tf2/tf/cfg
 
-ugc_cfg_version_9="v010316"
-ugc_cfg_version_6="v121915"
+ugc_cfg_version_9="v010816"
+ugc_cfg_version_6="v010816"
 ugc_cfg_version_4="v111415"
 
 wget -nv "http://etf2l.org/configs/etf2l_configs.zip"
