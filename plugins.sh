@@ -12,6 +12,8 @@ rm -r SOAP-TF2DM-master
 wget -nv "https://forums.alliedmods.net/attachment.php?attachmentid=83286&d=1299423920" -O "socket.zip"
 unzip socket.zip
 
+rm socket.zip
+
 # Curl
 cd $HOME/hlserver/tf2/tf/addons/sourcemod
 
@@ -24,12 +26,15 @@ wget -nv "https://github.com/peace-maker/sm-websocket/archive/master.zip" -O "sm
 unzip sm-websocket.zip
 cp -r sm-websocket-master/* ./
 rm -r sm-websocket-master
+rm sm-websocket.zip
 
 # Medic stats, SupStats, LogsTF, Pause, RecordSTV, WaitForStv, AFK, RestoreScore, FixStvSlot and Updater
 cd $HOME/hlserver/tf2/tf/addons/sourcemod/plugins
 
 wget -nv  --header="Accept: text/html" --user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:21.0) Gecko/20100101 Firefox/21.0" "http://sourcemod.krus.dk/f2-sourcemod-plugins.zip"
 unzip f2-sourcemod-plugins.zip
+
+rm f2-sourcemod-plugins.zip
 
 # WebRCON
 wget -nv https://github.com/spiretf/webrcon/raw/master/plugin/webrcon.smx

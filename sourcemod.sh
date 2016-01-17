@@ -12,3 +12,5 @@ wget -nv $sm_url
 
 tar -xvzf "mmsource-${mm_version}-linux.tar.gz"
 tar -xvzf "sourcemod-${sm_version}-linux.tar.gz"
+
+rm *.tar.gz
