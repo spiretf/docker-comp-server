@@ -17,7 +17,7 @@ rm socket.zip
 # Curl
 cd $HOME/hlserver/tf2/tf/addons/sourcemod
 
-wget -nv "https://sourcemod-curl-extension.googlecode.com/files/curl_1.3.0.0.zip"
+wget -nv "https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/sourcemod-curl-extension/curl_1.3.0.0.zip"
 unzip curl_1.3.0.0.zip
 rm curl_1.3.0.0.zip
 
