@@ -46,7 +46,7 @@ wget -nv https://github.com/spiretf/sm_whitelist/raw/master/plugin/whitelisttf.s
 wget -nv https://github.com/spiretf/mapdownloader/raw/master/plugin/mapdownloader.smx
 
 # demos.tf uploader
-wget -nv https://demos.tf/plugin/demostf.smx
+wget -nv https://github.com/demostf/plugin/raw/master/demostf.smx
 
 # autoexec
 wget -nv https://github.com/spiretf/autoexec/raw/master/plugin/autoexec.smx
