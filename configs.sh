@@ -16,4 +16,7 @@ unzip -o UGC_HL_cfg_and_whitelist_${ugc_cfg_version_9}.zip
 unzip -o UGC_6v6_cfg_${ugc_cfg_version_6}.zip
 unzip -o UGC_4v4_cfg_and_whitelist_${ugc_cfg_version_4}.zip
 
+# dont set the server name 
+sed -i '/hostname/d' ugc_*_custom.cfg
+
 rm *.zip
