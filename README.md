@@ -31,10 +31,6 @@ The server image comes with the etf2l and ugc configs, common competitive maps a
 - [Demos.tf](https://demos.tf)
 - [autoexec](https://github.com/spiretf/autoexec)
 
-## Maps
+## A Note on Maps
 
-- UGC HL S18
- - badwater\_pro\_v9
- - koth\_ashville\_rc1
- - pl\_swiftwater\_ugc
- - koth\_product\_rc8
+This image only has `cp_badlands` in the image, any other map that you try to switch to are automatically downloaded by the [map downloader plugin](https://github.com/spiretf/mapdownloader)
