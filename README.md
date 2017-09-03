@@ -30,6 +30,7 @@ The server image comes with the etf2l and ugc configs and a set of usefull sourc
 - [missing map downloader](https://github.com/spiretf/mapdownloader)
 - [Demos.tf](https://demos.tf)
 - [autoexec](https://github.com/spiretf/autoexec)
+- [ProperPregame](https://github.com/AJagger/ProperPregame)
 
 ## A Note on Maps
 

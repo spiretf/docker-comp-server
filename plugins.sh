@@ -51,3 +51,9 @@ wget -nv https://github.com/demostf/plugin/raw/master/demostf.smx
 
 # autoexec
 wget -nv https://github.com/spiretf/autoexec/raw/master/plugin/autoexec.smx
+
+# proper-pregage
+wget -nv https://github.com/AJagger/ProperPregame/raw/master/addons/sourcemod/plugins/properpregame.smx
+
+printf "\nsm plugins unload properpregame\n" >> $HOME/hlserver/tf2/tf/cfg/sourcemod/soap_live.cfg
+printf "\nsm plugins load properpregame\n" >> $HOME/hlserver/tf2/tf/cfg/sourcemod/soap_notlive.cfg
