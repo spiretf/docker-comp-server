@@ -14,6 +14,12 @@ wget -nv "https://forums.alliedmods.net/attachment.php?attachmentid=83286&d=1299
 unzip socket.zip
 rm socket.zip
 
+# srctvplus
+cd $HOME/hlserver/tf2/tf/addons
+
+wget -nv https://github.com/dalegaard/srctvplus/releases/download/v1.0/srctvplus.vdf
+wget -nv https://github.com/dalegaard/srctvplus/releases/download/v1.0/srctvplus.so
+
 # Curl
 cd $HOME/hlserver/tf2/tf/addons/sourcemod
 
