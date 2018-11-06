@@ -36,7 +36,7 @@ cp -r sm-websocket-master/* ./
 rm -r sm-websocket-master
 rm sm-websocket.zip
 
-# Medic stats, SupStats, LogsTF, Pause, RecordSTV, WaitForStv, AFK, RestoreScore, FixStvSlot and Updater
+# Medic stats, SupStats, LogsTF, RecordSTV, WaitForStv, AFK, RestoreScore, FixStvSlot and Updater
 cd $HOME/hlserver/tf2/tf/addons/sourcemod/plugins
 
 wget -nv  --header="Accept: text/html" --user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:21.0) Gecko/20100101 Firefox/21.0" "http://sourcemod.krus.dk/f2-sourcemod-plugins.zip"
@@ -57,6 +57,9 @@ wget -nv https://github.com/demostf/plugin/raw/master/demostf.smx
 
 # autoexec
 wget -nv https://github.com/spiretf/autoexec/raw/master/plugin/autoexec.smx
+
+## Pause
+wget -nv https://github.com/spiretf/docker-comp-server/raw/master/pause.smx
 
 # proper-pregage
 wget -nv https://github.com/AJagger/ProperPregame/raw/master/addons/sourcemod/plugins/properpregame.smx
