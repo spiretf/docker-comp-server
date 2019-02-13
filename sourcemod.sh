@@ -13,4 +13,4 @@ tar -xvzf sourcemod-*-linux.tar.gz
 rm *.tar.gz
 
 # prevent automatic map switch
-rm addons/sourcemod/plugins/{nextmap.smx, funcommands.smx, funvotes.smx}
+rm addons/sourcemod/plugins/{nextmap.smx,funcommands.smx,funvotes.smx}
