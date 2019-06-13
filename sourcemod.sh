@@ -1,16 +1,19 @@
 #!/bin/bash
 cd $HOME/hlserver/tf2/tf
 
-mm_url=$(wget -q -O - "https://www.metamodsource.net/downloads.php?branch=dev" | grep -oP -m1 "https://[a-z.]+/mmsdrop/[0-9.]+/mmsource-(.*)-linux.tar.gz")
-sm_url=$(wget -q -O - "http://www.sourcemod.net/downloads.php?branch=dev" | grep -oP -m1 "https://[a-z.]+/smdrop/[0-9.]+/sourcemod-(.*)-linux.tar.gz")
+mm_drop="https://mms.alliedmods.net/mmsdrop/1.10"
+sm_drop="https://sm.alliedmods.net/smdrop/1.9"
 
-wget -nv $mm_url
-wget -nv $sm_url
+mm_latest=$(wget -q -O - "$mm_drop/mmsource-latest-linux")
+sm_latest=$(wget -q -O - "$sm_drop/sourcemod-latest-linux")
 
-tar -xvzf mmsource-*-linux.tar.gz
-tar -xvzf sourcemod-*-linux.tar.gz
+wget -nv "$mm_drop/$mm_latest"
+wget -nv "$sm_drop/$sm_latest"
 
-rm *.tar.gz
+tar -xvzf "$mm_latest"
+tar -xvzf "$sm_latest"
+
+rm "$mm_latest" "$sm_latest"
 
 # prevent automatic map switch
 rm addons/sourcemod/plugins/{nextmap.smx,funcommands.smx,funvotes.smx}
