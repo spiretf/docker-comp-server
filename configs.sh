@@ -8,9 +8,9 @@ ugc_cfg_version_4=$(wget -O - "http://ugcleague.com/files_tf24.cfm" | grep -oP "
 wget -nv "http://etf2l.org/configs/etf2l_configs.zip"
 unzip etf2l_configs.zip
 
-wget -nv "http://ugcleague.com/files/configs/UGC_HL_cfg_and_whitelist_${ugc_cfg_version_9}.zip"
-wget -nv "http://ugcleague.com/files/configs/UGC_6v6_cfg_${ugc_cfg_version_6}.zip"
-wget -nv "http://ugcleague.com/files/configs/UGC_4v4_cfg_and_whitelist_${ugc_cfg_version_4}.zip"
+wget -nv --header "User-Agent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.11" "http://ugcleague.com/files/configs/UGC_HL_cfg_and_whitelist_${ugc_cfg_version_9}.zip"
+wget -nv --header "User-Agent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.11" "http://ugcleague.com/files/configs/UGC_6v6_cfg_${ugc_cfg_version_6}.zip"
+wget -nv --header "User-Agent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.11" "http://ugcleague.com/files/configs/UGC_4v4_cfg_and_whitelist_${ugc_cfg_version_4}.zip"
 
 unzip -oj UGC_HL_cfg_and_whitelist_${ugc_cfg_version_9}.zip
 unzip -o UGC_6v6_cfg_${ugc_cfg_version_6}.zip
