@@ -64,5 +64,7 @@ wget -nv https://github.com/spiretf/docker-comp-server/raw/master/pause.smx
 # proper-pregage
 wget -nv https://github.com/AJagger/ProperPregame/raw/master/addons/sourcemod/plugins/properpregame.smx
 
+chmod 0664 *.smx
+
 printf "\nsm plugins unload properpregame\n" >> $HOME/hlserver/tf2/tf/cfg/sourcemod/soap_live.cfg
 printf "\nsm plugins load properpregame\n" >> $HOME/hlserver/tf2/tf/cfg/sourcemod/soap_notlive.cfg
