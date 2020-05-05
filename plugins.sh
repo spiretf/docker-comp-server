@@ -14,6 +14,18 @@ wget -nv "https://forums.alliedmods.net/attachment.php?attachmentid=83286&d=1299
 unzip socket.zip
 rm socket.zip
 
+# dhooks
+
+wget -nv https://github.com/peace-maker/DHooks2/releases/download/v2.2.0-detours10/dhooks-2.2.0-detours10-sm110.zip
+unzip dhooks-2.2.0-detours10-sm110.zip
+rm dhooks-2.2.0-detours10-sm110.zip
+
+# tf2-comp-fixes
+
+wget -nv https://github.com/ldesgoui/tf2-comp-fixes/releases/download/v1.5.0/tf2-comp-fixes.zip
+unzip tf2-comp-fixes.zip
+rm tf2-comp-fixes.zip
+
 # srctvplus
 cd $HOME/hlserver/tf2/tf/addons
 

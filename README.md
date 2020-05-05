@@ -31,6 +31,7 @@ The server image comes with the etf2l and ugc configs and a set of usefull sourc
 - [Demos.tf](https://demos.tf)
 - [autoexec](https://github.com/spiretf/autoexec)
 - [ProperPregame](https://github.com/AJagger/ProperPregame)
+- [tf2-comp-fixes](https://github.com/ldesgoui/tf2-comp-fixes)
 
 ## A Note on Maps
 
