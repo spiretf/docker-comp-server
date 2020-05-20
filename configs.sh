@@ -16,8 +16,10 @@ unzip -oj UGC_HL_cfg_and_whitelist_${ugc_cfg_version_9}.zip
 unzip -o UGC_6v6_cfg_${ugc_cfg_version_6}.zip
 unzip -o UGC_4v4_cfg_and_whitelist_${ugc_cfg_version_4}.zip
 
-# dont set the server name 
+# dont set the server and stv name
 sed -i '/hostname/d' ugc_*_custom.cfg
+sed -i '/tv_name/d' ugc_*_custom.cfg
+sed -i '/tv_title/d' ugc_*_custom.cfg
 
 # WaitForSTV handles the stv delay better
 sed -i 's/tv_delaymapchange_protect\s*"\?1"\?/tv_delaymapchange_protect 0/g' *.cfg
