@@ -86,3 +86,10 @@ chmod 0664 *.smx
 
 printf "\nsm plugins unload properpregame\n" >> $HOME/hlserver/tf2/tf/cfg/sourcemod/soap_live.cfg
 printf "\nsm plugins load properpregame\n" >> $HOME/hlserver/tf2/tf/cfg/sourcemod/soap_notlive.cfg
+
+cd $HOME/hlserver/tf2/tf
+
+wget -nv https://github.com/l-Aad-l/updated-pause-plugin/releases/download/v1.4.2/updated-pause-plugin.zip
+unzip updated-pause-plugin.zip
+rm updated-pause-plugin.zip
+
