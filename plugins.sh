@@ -22,7 +22,7 @@ rm dhooks-2.2.0-detours10-sm110.zip
 
 # tf2-comp-fixes
 
-wget -nv https://github.com/ldesgoui/tf2-comp-fixes/releases/download/v1.8.1/tf2-comp-fixes.zip
+wget -nv https://github.com/ldesgoui/tf2-comp-fixes/releases/download/v1.5.2/tf2-comp-fixes.zip
 unzip tf2-comp-fixes.zip
 rm tf2-comp-fixes.zip
 
