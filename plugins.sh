@@ -90,6 +90,6 @@ printf "\nsm plugins load properpregame\n" >> $HOME/hlserver/tf2/tf/cfg/sourcemo
 cd $HOME/hlserver/tf2/tf
 
 wget -nv https://github.com/l-Aad-l/updated-pause-plugin/releases/download/v1.4.2/updated-pause-plugin.zip
-unzip updated-pause-plugin.zip
+unzip -o updated-pause-plugin.zip
 rm updated-pause-plugin.zip
 
