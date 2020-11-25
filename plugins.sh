@@ -2,7 +2,7 @@
 cd $HOME/hlserver/tf2/tf
 
 # SOAP-DM
-wget -nv "https://github.com/icewind1991/SOAP-TF2DM/archive/master.zip" -O "soap-dm.zip"
+wget -nv "https://github.com/spiretf/SOAP-TF2DM/archive/master.zip" -O "soap-dm.zip"
 unzip soap-dm.zip
 cp -r SOAP-TF2DM-master/* ./
 rm -r SOAP-TF2DM-master
