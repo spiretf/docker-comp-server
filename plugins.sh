@@ -23,7 +23,7 @@ rm dhooks-2.2.0-detours16-sm110.zip
 # tf2-comp-fixes
 
 wget -nv https://github.com/ldesgoui/tf2-comp-fixes/releases/download/v1.11.1/tf2-comp-fixes.zip
-unzip tf2-comp-fixes.zip
+unzip -o tf2-comp-fixes.zip
 rm tf2-comp-fixes.zip
 
 # srctvplus
