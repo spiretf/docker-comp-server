@@ -5,7 +5,7 @@ ugc_cfg_version_9=$(wget -q -O - "https://www.ugcleague.com/files_tf2h.cfm" | gr
 ugc_cfg_version_6=$(wget -q -O - "https://www.ugcleague.com/files_tf26.cfm" | grep -oP "UGC_6v6_cfg_(.*)\.zip" | grep -m1 -oP "v\d{6,8}")
 ugc_cfg_version_4=$(wget -q -O - "https://www.ugcleague.com/files_tf24.cfm" | grep -oP "UGC_4v4_cfg_(.*)\.zip" | grep -m1 -oP "v\d{6,8}")
 
-wget -nv "http://etf2l.org/configs/etf2l_configs.zip"
+wget -nv "https://github.com/ETF2L/gameserver-configs/releases/latest/download/etf2l_configs.zip"
 unzip etf2l_configs.zip
 
 wget -nv --header "User-Agent: Mozilla/5.0 (Windows NT 6.0) AppleWebKit/537.11" "https://www.ugcleague.com/files/configs/UGC_HL_cfg_${ugc_cfg_version_9}.zip"
