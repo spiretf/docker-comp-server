@@ -1,4 +1,6 @@
 #!/bin/bash
+set -e
+
 cd $HOME/hlserver/tf2/tf/cfg
 
 ugc_cfg_version_9=$(wget -q -O - "https://www.ugcleague.com/files_tf2h.cfm" | grep -oP "UGC_HL_cfg_(.*)\.zip" | grep -m1 -oP "v\d{6,8}")

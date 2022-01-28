@@ -1,4 +1,6 @@
 #!/bin/bash
+set -e
+
 cd $HOME/hlserver/tf2/tf
 
 mm_url=$(wget -q -O - "https://www.metamodsource.net/downloads.php?branch=stable" | grep -oP -m1 "https://[a-z.]+/mmsdrop/[0-9.]+/mmsource-(.*)-linux.tar.gz")

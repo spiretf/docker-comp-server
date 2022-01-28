@@ -1,4 +1,6 @@
 #!/bin/bash
+set -e
+
 cd $HOME/hlserver/tf2/tf
 
 # SOAP-DM
