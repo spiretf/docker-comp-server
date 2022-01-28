@@ -5,7 +5,7 @@ cd $HOME/hlserver/tf2/tf
 
 # SOAP-DM
 wget -nv "https://github.com/sapphonie/SOAP-TF2DM/archive/master.zip" -O "soap-dm.zip"
-unzip soap-dm.zip
+unzip -o soap-dm.zip
 cp -r SOAP-TF2DM-master/* ./
 rm -r SOAP-TF2DM-master
 rm soap-dm.zip
@@ -13,13 +13,13 @@ rm soap-dm.zip
 # Socket
 
 wget -nv "https://forums.alliedmods.net/attachment.php?attachmentid=83286&d=1299423920" -O "socket.zip"
-unzip socket.zip
+unzip -o socket.zip
 rm socket.zip
 
 # dhooks
 
 wget -nv https://github.com/peace-maker/DHooks2/releases/download/v2.2.0-detours16/dhooks-2.2.0-detours16-sm110.zip
-unzip dhooks-2.2.0-detours16-sm110.zip
+unzip -o dhooks-2.2.0-detours16-sm110.zip
 rm dhooks-2.2.0-detours16-sm110.zip
 
 # tf2-comp-fixes
@@ -38,14 +38,14 @@ wget -nv https://github.com/dalegaard/srctvplus/releases/download/v1.1/srctvplus
 cd $HOME/hlserver/tf2/tf/addons/sourcemod
 
 wget -nv "https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/sourcemod-curl-extension/curl_1.3.0.0.zip"
-unzip curl_1.3.0.0.zip
+unzip -o curl_1.3.0.0.zip
 rm curl_1.3.0.0.zip
 wget https://raw.githubusercontent.com/spiretf/docker-comp-server/master/curl.ext.so -O $HOME/hlserver/tf2/tf/addons/sourcemod/extensions/curl.ext.so
 
 # Websockets
 
 wget -nv "https://github.com/peace-maker/sm-websocket/archive/master.zip" -O "sm-websocket.zip"
-unzip sm-websocket.zip
+unzip -o sm-websocket.zip
 cp -r sm-websocket-master/* ./
 rm -r sm-websocket-master
 rm sm-websocket.zip
@@ -54,7 +54,7 @@ rm sm-websocket.zip
 cd $HOME/hlserver/tf2/tf/addons/sourcemod/plugins
 
 wget -nv  --header="Accept: text/html" --user-agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10.8; rv:21.0) Gecko/20100101 Firefox/21.0" "http://sourcemod.krus.dk/f2-sourcemod-plugins.zip"
-unzip f2-sourcemod-plugins.zip
+unzip -o f2-sourcemod-plugins.zip
 rm f2-sourcemod-plugins.zip
 
 # WebRCON
