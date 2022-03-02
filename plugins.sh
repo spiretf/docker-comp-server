@@ -18,13 +18,13 @@ rm socket.zip
 
 # dhooks
 
-wget -nv https://github.com/peace-maker/DHooks2/releases/download/v2.2.0-detours16/dhooks-2.2.0-detours16-sm110.zip
-unzip -o dhooks-2.2.0-detours16-sm110.zip
-rm dhooks-2.2.0-detours16-sm110.zip
+wget -nv https://github.com/peace-maker/DHooks2/releases/download/v2.2.0-detours17/dhooks-2.2.0-detours17-sm110.zip
+unzip -o dhooks-2.2.0-detours17-sm110.zip
+rm dhooks-2.2.0-detours17-sm110.zip
 
 # tf2-comp-fixes
 
-wget -nv https://github.com/ldesgoui/tf2-comp-fixes/releases/download/v1.13.0/tf2-comp-fixes.zip
+wget -nv https://github.com/ldesgoui/tf2-comp-fixes/releases/download/v1.16.7/tf2-comp-fixes.zip
 unzip -o tf2-comp-fixes.zip
 rm tf2-comp-fixes.zip
 
