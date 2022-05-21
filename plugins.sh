@@ -10,6 +10,13 @@ cp -r SOAP-TF2DM-master/* ./
 rm -r SOAP-TF2DM-master
 rm soap-dm.zip
 
+# Improved-Match-Timer
+wget -nv "https://github.com/b4nnyBot/Improved-Match-Timer/archive/master.zip" -O "improved-match-timer.zip"
+unzip -o improved-match-timer.zip
+cp -r Improved-Match-Timer-main/* ./
+rm -r Improved-Match-Timer-main
+rm improved-match-timer.zip
+
 # Socket
 
 wget -nv "https://forums.alliedmods.net/attachment.php?attachmentid=83286&d=1299423920" -O "socket.zip"
