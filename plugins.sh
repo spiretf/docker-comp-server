@@ -38,8 +38,8 @@ rm tf2-comp-fixes.zip
 # srctvplus
 cd $HOME/hlserver/tf2/tf/addons
 
-wget -nv https://github.com/dalegaard/srctvplus/releases/download/v1.1/srctvplus.vdf
-wget -nv https://github.com/dalegaard/srctvplus/releases/download/v1.1/srctvplus.so
+wget -nv https://github.com/dalegaard/srctvplus/releases/download/v2.0/srctvplus.vdf
+wget -nv https://github.com/dalegaard/srctvplus/releases/download/v2.0/srctvplus.so
 
 # Curl
 cd $HOME/hlserver/tf2/tf/addons/sourcemod
