@@ -11,10 +11,10 @@ rm -r SOAP-TF2DM-master
 rm soap-dm.zip
 
 # Improved-Match-Timer
-wget -nv "https://github.com/b4nnyBot/Improved-Match-Timer/archive/master.zip" -O "improved-match-timer.zip"
+wget -nv "https://github.com/b4nnyBot/Progressive-Ruleset-Timer-Plugins/archive/master.zip" -O "improved-match-timer.zip"
 unzip -o improved-match-timer.zip
-cp -r Improved-Match-Timer-main/* ./
-rm -r Improved-Match-Timer-main
+cp -r Progressive-Ruleset-Timer-Plugins-main/* ./
+rm -r Progressive-Ruleset-Timer-Plugins-main
 rm improved-match-timer.zip
 
 # Socket
