@@ -44,9 +44,9 @@ wget -nv https://github.com/dalegaard/srctvplus/releases/download/v3.0/srctvplus
 # Curl
 cd $HOME/hlserver/tf2/tf/addons/sourcemod
 
-wget -nv "https://storage.googleapis.com/google-code-archive-downloads/v2/code.google.com/sourcemod-curl-extension/curl_1.3.0.0.zip"
-unzip -o curl_1.3.0.0.zip
-rm curl_1.3.0.0.zip
+wget -nv "https://github.com/sapphonie/SM-neocurl-ext/releases/download/v2.0.0-beta/sm-neocurl.zip"
+unzip -o sm-neocurl.zip
+rm sm-neocurl.zip
 wget https://raw.githubusercontent.com/spiretf/docker-comp-server/master/curl.ext.so -O $HOME/hlserver/tf2/tf/addons/sourcemod/extensions/curl.ext.so
 
 # Websockets
