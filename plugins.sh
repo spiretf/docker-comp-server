@@ -47,7 +47,6 @@ cd $HOME/hlserver/tf2/tf/addons/sourcemod
 wget -nv "https://github.com/sapphonie/SM-neocurl-ext/releases/download/v2.0.0-beta/sm-neocurl.zip"
 unzip -o sm-neocurl.zip
 rm sm-neocurl.zip
-wget https://raw.githubusercontent.com/spiretf/docker-comp-server/master/curl.ext.so -O $HOME/hlserver/tf2/tf/addons/sourcemod/extensions/curl.ext.so
 
 # Websockets
 
