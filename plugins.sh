@@ -23,12 +23,6 @@ wget -nv "https://forums.alliedmods.net/attachment.php?attachmentid=83286&d=1299
 unzip -o socket.zip
 rm socket.zip
 
-# dhooks
-
-wget -nv https://github.com/peace-maker/DHooks2/releases/download/v2.2.0-detours17/dhooks-2.2.0-detours17-sm110.zip
-unzip -o dhooks-2.2.0-detours17-sm110.zip
-rm dhooks-2.2.0-detours17-sm110.zip
-
 # tf2-comp-fixes
 
 wget -nv https://github.com/ldesgoui/tf2-comp-fixes/releases/download/v1.16.13/tf2-comp-fixes.zip
