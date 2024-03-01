@@ -78,6 +78,9 @@ wget -nv https://github.com/spiretf/docker-comp-server/raw/master/pause.smx
 ## NoCheats
 wget -nv https://github.com/spiretf/nocheats/raw/master/plugin/nocheats.smx
 
+## NoChat
+wget -nv https://github.com/spiretf/nochat/raw/main/plugin/nochat.smx
+
 ## SetTeam
 wget -nv https://github.com/spiretf/setteam/raw/master/plugin/setteam.smx
 
