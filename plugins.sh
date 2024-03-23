@@ -3,6 +3,11 @@ set -e
 
 cd $HOME/hlserver/tf2/tf
 
+# SteamWorks
+wget -nv "https://github.com/KyleSanderson/SteamWorks/releases/download/1.2.3c/package-lin.tgz" -O "steamworks.tar.gz"
+tar -xf steamworks.tar.gz --strip-components 1
+rm steamworks.tar.gz
+
 # SOAP-DM
 wget -nv "https://github.com/sapphonie/SOAP-TF2DM/archive/master.zip" -O "soap-dm.zip"
 unzip -o soap-dm.zip
@@ -80,6 +85,9 @@ wget -nv https://github.com/spiretf/nocheats/raw/master/plugin/nocheats.smx
 
 ## NoChat
 wget -nv https://github.com/spiretf/nochat/raw/main/plugin/nochat.smx
+
+## SdrConnect
+wget -nv https://github.com/spiretf/sdrconnect/raw/main/plugin/sdrconnect.smx
 
 ## SetTeam
 wget -nv https://github.com/spiretf/setteam/raw/master/plugin/setteam.smx
