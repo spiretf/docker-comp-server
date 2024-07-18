@@ -24,7 +24,7 @@ rm improved-match-timer.zip
 
 # Socket
 
-wget -nv "https://forums.alliedmods.net/attachment.php?attachmentid=83286&d=1299423920" -O "socket.zip"
+cp /socket_3.0.1.zip socket.zip
 unzip -o socket.zip
 rm socket.zip
 

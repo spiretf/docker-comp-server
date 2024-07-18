@@ -1,6 +1,7 @@
 from spiretf/docker-tf2-server
 maintainer Robin Appelman <robin@icewind.nl>
 
+ADD ./socket_3.0.1.zip /
 ADD ./maps.sh ./sourcemod.sh ./plugins.sh ./configs.sh $SERVER/
 RUN $SERVER/maps.sh \
 	&& $SERVER/sourcemod.sh \
