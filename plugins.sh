@@ -95,6 +95,10 @@ wget -nv https://github.com/spiretf/setteam/raw/master/plugin/setteam.smx
 # proper-pregame
 wget -nv https://github.com/AJagger/ProperPregame/raw/master/addons/sourcemod/plugins/properpregame.smx
 
+# ExtendHumiliation
+
+cp /ExtendHumiliation.smx .
+
 chmod 0664 *.smx
 
 printf "\nsm plugins unload properpregame\n" >> $HOME/hlserver/tf2/tf/cfg/sourcemod/soap_live.cfg

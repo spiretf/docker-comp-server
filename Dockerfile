@@ -1,7 +1,7 @@
 from spiretf/docker-tf2-server
 maintainer Robin Appelman <robin@icewind.nl>
 
-ADD ./socket_3.0.1.zip /
+ADD ./socket_3.0.1.zip ./ExtendHumiliation.smx /
 ADD ./maps.sh ./sourcemod.sh ./plugins.sh ./configs.sh $SERVER/
 RUN $SERVER/maps.sh \
 	&& $SERVER/sourcemod.sh \
