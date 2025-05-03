@@ -92,6 +92,9 @@ wget -nv https://github.com/spiretf/sdrconnect/raw/main/plugin/sdrconnect.smx
 ## SetTeam
 wget -nv https://github.com/spiretf/setteam/raw/master/plugin/setteam.smx
 
+## Who
+wget -nv https://github.com/spiretf/who/raw/refs/heads/main/plugin/who.smx
+
 # proper-pregame
 wget -nv https://github.com/AJagger/ProperPregame/raw/master/addons/sourcemod/plugins/properpregame.smx
 
