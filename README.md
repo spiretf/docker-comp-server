@@ -1,3 +1,5 @@
+# Moved to https://codeberg.org/spire/docker-comp-server
+
 ## Team Fortress 2 + Competitive + Docker
 
 Docker image for a competitive tf2 server.
